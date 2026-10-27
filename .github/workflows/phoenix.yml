@@ -25,7 +25,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npm install
-
-    - name: Start application
-      run: npm start
+      run: "scripts": {
+  "prod:start": "pm2-runtime app.js"
+.
+    - name: npm install pm2
+      run: PM2_PUBLIC_KEY=6vafc9q281idqbc
+PM2_SECRET_KEY=hy3uq1dlhys6pxq
